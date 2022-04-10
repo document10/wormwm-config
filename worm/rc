@@ -9,7 +9,7 @@ tint2 &
 wormc frame-active-pixel $((16#FF383C4A))
 wormc frame-inactive-pixel $((16#FF383C4A)) # todo: diff color for active window (the bug here was fixed, this works now)
 wormc frame-left T
-wormc text-font 'Jetbrains Mono:size=10'
+#wormc text-font 'Jetbrains Mono:size=10' #commented,font might not be installed
 wormc frame-right 'I;M;C'
 wormc button-offset 5 7
 wormc close-path ~/.config/worm/buttons/close.png
