@@ -1,0 +1,20 @@
+super + Return
+	xfce4-terminal
+super + q
+	wormc close-active-client
+super + {1-9}
+	wormc switch-tag {1-9}
+super + shift + {1-9}
+	wormc move-active-tag {1-9}
+super + r
+    rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
+super + w
+    firefox
+super + n
+    thunar
+#super + p
+#    sh ~/.config/rofi/powermenu
+super + t
+	wormc layout tiling
+super + f
+	wormc layout floating
